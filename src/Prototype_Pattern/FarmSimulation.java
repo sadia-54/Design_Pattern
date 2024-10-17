@@ -12,6 +12,10 @@ class Sheep implements Cloneable {
         this.age = age;
     }
 
+    public Sheep(){
+        
+    }
+
     public Sheep clone() throws CloneNotSupportedException{
         return (Sheep) super.clone();
     }
